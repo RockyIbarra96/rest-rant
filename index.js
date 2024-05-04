@@ -1,3 +1,4 @@
+require('dotenv').config()
 // Require needed modules
 const express = require('express')
 
@@ -5,17 +6,15 @@ const express = require('express')
 const app = express()
 
 //create a homepage route. 
-app.get('/', function(req, res) {
+app.get('/', (req, res) => {
     //this gets sent to the client
     res.send('Hello World')
 })
 
 //create alternate path
-app.get('/two', function(req, res) {
-    res.send('Whatsup Bro')
+app.get('*', (req, res) => {
+    res.status(404).send(`<h1>404 Page</h1>`)
 })
 
 //listen for connections
-app.listen(3000, function(){
-    console.log('I am awake')
-})
+app.listen(process.env.PORT)
