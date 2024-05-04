@@ -5,6 +5,9 @@ const express = require('express')
 // initialize the app object
 const app = express()
 
+//import places.js
+app.use('/places', require('./controllers/places'))
+
 //create a homepage route. 
 app.get('/', (req, res) => {
     //this gets sent to the client
