@@ -5,3 +5,13 @@ ROUTES
 | Method |  Path  |  Purpose  |
 |--------|--------|-----------|
 |  GET   |    /   | Home page |
+|  GET   |    /places  | Places index page |
+|  GET   |    /   | Home page |
+|  GET   |    /   | Home page |
+|  GET   |    /   | Home page |
+|  GET   |    /   | Home page |
+|  GET   |    /   | Home page |
+|  GET   |    /   | Home page |
+|  GET   |    /   | Home page |
+|  GET   |    /   | Home page |
+|  GET   |    /   | Home page |
