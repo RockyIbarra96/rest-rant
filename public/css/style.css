@@ -1,5 +1,56 @@
+body {
+    background-color: #D2E0DD;
+}
+
 h1 {
     text-align: center;
-    color: cornflowerblue;
+    color: #004466;
   }
-  
+
+ p {
+    text-align: center;
+    color:#631104;
+    font-size: 25px;
+    
+}
+/*error404 styles here*/
+.funny-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.funny-img {
+    height: 50vh;
+    width: 30vw;
+
+}
+
+.photo-by-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*Home styles here*/
+.home-image {
+    width: 100vw;
+    height: 60vh;
+}
+
+.oops-text {
+    font-size: 50px;
+    color: #004466
+}
+
+.btn-primary {
+    width: 130px;
+    height: 50px;
+}
+
+/*Index styles here*/
+h2 {
+    color:#631104;
+    font-size: 30px;
+}
+
