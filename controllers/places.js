@@ -17,16 +17,16 @@ router.get('/', (req, res) => {
     res.render('places/index', {places})
 })
 
+router.post('/', (req, res) => {
+  res.send('POST /places stub')
+})
+
 router.get('/new', (req, res) => {
   res.render('places/new')
 })
 
-router.post('/places', (req, res) => {
-  res.send('places')
-})
-
-router.get('/places/:id', (req, res) => {
-  res.render('places/:id')
+router.get('/:id', (req, res) => {
+  res.send('GET /places/new stub')
 })
 
 
