@@ -85,3 +85,36 @@ nav a:hover {
     color: #002067;
     text-decoration: none;
 }
+
+/*SHOW PAGE STYLES*/
+.show-main {
+    background-color: white;
+}
+.show-page-container {
+    display: flex;
+    
+}
+.rating-description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+.show-rating {
+    padding-top: 50px;
+    text-decoration: underline;
+}
+.show-description {
+    padding-top: 100px;
+    text-decoration: underline;
+}
+.show-comments {
+    padding-top: 50px;
+    text-decoration: underline;
+}
+.rest-pics {
+    width: 50vw;
+    height: 60vh;
+}
