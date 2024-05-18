@@ -11,7 +11,7 @@ db.Place.create([{
     name: 'Coding Cat Cafe',
     city: 'Phoenix',
     state: 'AZ',
-    cuisines: 'Coffee, Bakery',
+    cuisines: 'Coffee and Baked Goods',
     pic: '/images/cat-cafe-pic.jpg',
     founded: 2020
 }])
