@@ -7,11 +7,12 @@ function show (data) {
           <main className='show-main'>
             <h1>{ data.place.name }</h1>
             <section className='show-page-container'>
-                
-                <img src={data.place.pic} alt={data.place.name} className='rest-pics'/>
-                <h3>
-                    Located in {data.place.city}, {data.place.state}
-                </h3>
+                <div>
+                    <img src={data.place.pic} alt={data.place.name} className='rest-pics'/>
+                    <h3>
+                        Located in {data.place.city}, {data.place.state}
+                    </h3>
+                </div>
                 <div className='rating-description-container'>
                     <h2 className='show-rating'>Rating</h2>
                         <p>no rating yet</p>
