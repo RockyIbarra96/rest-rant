@@ -2,7 +2,7 @@
   "name": "rest-rant",
   "version": "1.0.0",
   "engines": {
-    "node": ">=14.x"
+    "node": "v20.11.1"
   },
   "description": "",
   "main": "index.js",
